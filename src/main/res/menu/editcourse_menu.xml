@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:title="@string/edit_course_update_menu_item_txt"
+    android:orderInCategory="100"
+    android:id="@+id/edit_course_update_menu_item"/>
+
+    <item android:title="@string/refresh_menu_item_txt"
+        android:orderInCategory="100"
+        android:id="@+id/edit_course_refresh_menu_item"/>
+
+    <item android:title="@string/share_note_menu_item_txt"
+        android:orderInCategory="100"
+        android:id="@+id/edit_course_share_note_menu_item"/>
+
+    <item android:title="@string/edit_course_delete_course_menu_item_txt"
+          android:orderInCategory="100"
+          android:id="@+id/edit_course_delete_menu_item"/>
+
+    <item android:title="@string/notify_menu_item_txt"
+        android:orderInCategory="100"
+        android:id="@+id/edit_course_notify_menu_item"/>
+
+    <item android:title="@string/cancel_menu_item_txt"
+        android:orderInCategory="100"
+        android:id="@+id/edit_course_cancel_course_menu_item"/>
+
+</menu>

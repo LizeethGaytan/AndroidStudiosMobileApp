@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:title="@string/edit_assessment_update_menu_item_txt"
+        android:orderInCategory="100"
+        android:id="@+id/edit_assessment_update_menu_item"/>
+
+    <item android:title="@string/edit_assessment_delete_menu_item_txt"
+        android:orderInCategory="100"
+        android:id="@+id/edit_assessment_delete_menu_item"/>
+
+    <item android:title="@string/notify_menu_item_txt"
+        android:orderInCategory="100"
+        android:id="@+id/edit_assessment_notify_menu_item"/>
+
+    <item android:title="@string/cancel_menu_item_txt"
+        android:orderInCategory="100"
+        android:id="@+id/edit_assessment_cancel_menu_item"/>
+</menu>

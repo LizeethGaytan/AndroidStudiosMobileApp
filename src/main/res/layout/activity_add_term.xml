@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".project.UI.AddTermActivity">
+
+    <LinearLayout
+            android:id="@+id/linearLayout"
+            android:orientation="vertical"
+            android:layout_width="409dp"
+            android:layout_height="729dp" app:layout_constraintTop_toTopOf="parent"
+            android:layout_marginTop="1dp" app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginStart="1dp" android:layout_marginEnd="1dp" app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent" android:layout_marginBottom="1dp"
+            app:layout_constraintHorizontal_bias="0.0" app:layout_constraintVertical_bias="0.0">
+
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="76dp"
+                android:orientation="horizontal">
+            <TextView
+                    android:layout_margin="2dp"
+                    android:layout_width="200dp"
+                    android:layout_height="match_parent"
+                    android:text="@string/add_term_name_txt"/>
+            <EditText
+                    android:layout_width="200dp"
+                    android:layout_height="match_parent"
+                    android:id="@+id/termName"/>
+        </LinearLayout>
+
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+            <TextView
+                    android:layout_margin="2dp"
+                    android:layout_width="200dp"
+                    android:layout_height="match_parent"
+                    android:text="@string/add_term_start_date_txt"/>
+            <EditText
+                    android:layout_width="200dp"
+                    android:layout_height="match_parent"
+                    android:hint="MM/dd/yyyy"
+                    android:id="@+id/termstartdate"/>
+        </LinearLayout>
+
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+            <TextView
+                    android:layout_margin="2dp"
+                    android:layout_width="200dp"
+                    android:layout_height="match_parent"
+                    android:text="@string/add_term_end_date_txt"/>
+            <EditText
+                    android:layout_width="200dp"
+                    android:layout_height="match_parent"
+                    android:hint="MM/dd/yyyy"
+                    android:id="@+id/termenddate"/>
+        </LinearLayout>
+<!--        <androidx.recyclerview.widget.RecyclerView-->
+<!--            android:id="@+id/addTermRecyclerView"-->
+<!--            android:layout_width="409dp"-->
+<!--            android:layout_height="300dp" />-->
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

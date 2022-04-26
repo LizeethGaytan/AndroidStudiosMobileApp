@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">UNIVERSITY100</string>
+    <string name="enter_btn_txt">Enter</string>
+    <string name="home_screen_title">Home</string>
+    <string name="all_terms_title">All Terms</string>
+    <string name="detailed_term_title">Detailed Term</string>
+    <string name="all_courses_title">Add Course</string>
+    <string name="edit_course_title">Edit Course</string>
+    <string name="assessments_screen_title">Edit Assessment</string>
+    <string name="add_assessment_screen_title">Add Assessment</string>
+    <string name="terms_btn_txt">Terms</string>
+    <string name="save_term_menu_item_txt">Save Term</string>
+    <string name="add_term_title">Add Term</string>
+    <string name="add_term_name_txt">Name:</string>
+    <string name="add_term_start_date_txt">Start Date:</string>
+    <string name="add_term_end_date_txt">End Date:</string>
+    <string name="edit_course_update_menu_item_txt">Update Course</string>
+    <string name="edit_course_delete_course_menu_item_txt">Delete Course</string>
+    <string name="refresh_term_menu_item_txt">Refresh Terms</string>
+    <string name="detailed_term_update_term_menu_item_txt">Update Term</string>
+    <string name="detailed_term_delete_term_menu_item_txt">Delete Term</string>
+    <string name="save_course_menu_item_txt">Save Course</string>
+    <string name="cancel_menu_item_txt">Cancel</string>
+    <string name="refresh_menu_item_txt">Refresh</string>
+    <string name="save_assessment_menu_item_txt">Save Assessment</string>
+    <string name="edit_assessment_update_menu_item_txt">Update Assessment</string>
+    <string name="edit_assessment_delete_menu_item_txt">Delete Assessment</string>
+    <string name="share_note_menu_item_txt">Share Note</string>
+    <string name="notify_menu_item_txt">Notify</string>
+    <string name="channel_name">university100Channel</string>
+    <string name="channel_description">university100ChannelDescription</string>
+
+</resources>

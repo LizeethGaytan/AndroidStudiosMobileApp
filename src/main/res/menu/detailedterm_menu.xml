@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:title="@string/detailed_term_update_term_menu_item_txt"
+        android:orderInCategory="100"
+        android:id="@+id/detailed_term_update_term_menu_item"/>
+    <item android:title="@string/detailed_term_delete_term_menu_item_txt"
+          android:orderInCategory="100"
+          android:id="@+id/detailed_term_delete_term_menu_item"/>
+    <item android:title="@string/refresh_menu_item_txt"
+        android:orderInCategory="100"
+        android:id="@+id/detailed_term_refresh_menu_item"/>
+</menu>

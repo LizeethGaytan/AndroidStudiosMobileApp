@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.gaytan.c196">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.C196">
+
+        <receiver
+            android:name=".project.UI.University100Receiver"
+            android:enabled="true"
+            android:exported="true"></receiver>
+
+        <activity
+            android:name=".project.UI.HomeActivity"
+            android:exported="false"
+            android:label="@string/home_screen_title"
+            android:parentActivityName=".project.UI.MainActivity" />
+        <activity
+            android:name=".project.UI.EditCourseActivity"
+            android:exported="false"
+            android:label="@string/edit_course_title" />
+        <activity
+            android:name=".project.UI.DetailedTermActivity"
+            android:exported="false"
+            android:label="@string/detailed_term_title"
+            android:parentActivityName=".project.UI.AllTermsActivity" />
+        <activity
+            android:name=".project.UI.AllTermsActivity"
+            android:exported="false"
+            android:label="@string/all_terms_title"
+            android:parentActivityName=".project.UI.HomeActivity" />
+        <activity
+            android:name=".project.UI.AddCourseActivity"
+            android:exported="false"
+            android:label="@string/all_courses_title"
+            android:parentActivityName=".project.UI.AllTermsActivity" />
+        <activity
+            android:name=".project.UI.AddAssessmentActivity"
+            android:exported="false"
+            android:label="@string/add_assessment_screen_title" />
+        <activity
+            android:name=".project.UI.EditAssessmentActivity"
+            android:exported="false"
+            android:label="@string/assessments_screen_title" />
+        <activity
+            android:name=".project.UI.AddTermActivity"
+            android:exported="false"
+            android:label="@string/add_term_title"
+            android:parentActivityName=".project.UI.AllTermsActivity" />
+        <activity
+            android:name=".project.UI.MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
